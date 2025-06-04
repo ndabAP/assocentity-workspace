@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "../"
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Package",
+				"type": "go",
+				"request": "launch",
+				"mode": "auto",
+				"program": "${workspaceFolder}/entityscrape/main.go"
+			}
+		],
+		"env": {
+			"GCLOUD_SERVICE_ACCOUNT_KEY": "${input:gcloud_service_account_key}"
+		},
+		"inputs": [
+			{
+				"id": "gcloud_service_account_key",
+				"description": "Google Cloud service account key path",
+				"type": "promptString"
+			}
+		]
+	}
+}
