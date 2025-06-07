@@ -15,7 +15,7 @@
 				"program": "${workspaceFolder}/entityscrape/main.go",
 				"env": {
 					"GCLOUD_SERVICE_ACCOUNT_KEY": "${input:gcloud_service_account_key}"
-				}
+				},
 			}
 		],
 		"inputs": [
