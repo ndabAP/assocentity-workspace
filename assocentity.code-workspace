@@ -14,9 +14,9 @@
 				"mode": "auto",
 				"program": "${workspaceFolder}/entityscrape/main.go",
 				"env": {
+					"CASE_STUDY": "isopf",
 					"GCLOUD_SERVICE_ACCOUNT_KEY": "${input:gcloud_service_account_key}",
-					"SAMPLE_RATE": "10",
-					"CASE_STUDY": "isopf"
+					"SAMPLE_RATE": "20"
 				},
 			}
 		],
